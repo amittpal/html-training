@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#outer
+		{
+			height: 1000px;
+			width: 1000px;
+			border: 5px solid black;
+			margin: 0 auto;
+
+		}
+		#header
+		{
+			height: 200px;
+			width: 1000px;
+			background-color: yellow;
+			border: 2px solid blue;
+		}
+		#lside
+		{
+			height: 750px;
+			width: 300px;
+			background-color: green;
+			float: left;
+		}
+		#rside
+		{
+			height: 750px;
+			width: 700px;
+			background-color: red;
+			float: right;
+			
+		}
+		#parent
+		{
+			height: 750px;
+			width: 1000px;
+			background-color: blue;
+		}
+		#footer
+		{
+			height: 50px;
+			width: 1000px;
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+<!--Div definition:-
+As p stands for paragraph, div does not stands for anything. Div has no semantic meaning. Div is only a container tag or a block level element
+-->
+<div id="outer">
+	    <div id="header"></div>
+	    <div id="parent">
+	     <div id="lside">this iis left</div>
+	     <div id="rside">this is right side</div>
+	    </div>
+	    <div id="footer">this is footer</div>
+</div>
+
+</body>
+</html>
